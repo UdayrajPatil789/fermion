@@ -1,0 +1,45 @@
+.header {
+ display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 99;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  justify-items: center;
+  
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+ .logo {
+    /* float: left; */
+    width: 130px;
+}
+
+ .navigation {
+    display: flex;
+    gap: 10px;
+    width: calc(100% - 184px);
+    position: relative;
+    padding-top: 12px;
+    padding-left: 70px;
+    justify-content: space-evenly;
+}
+
+.text{
+    display: block;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a4a9c;
+    text-decoration: none;
+    margin-right: 40px;
+}

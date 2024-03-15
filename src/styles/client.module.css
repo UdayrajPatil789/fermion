@@ -1,0 +1,54 @@
+.main {
+  float: left;
+  width: 100%;
+  background-color: #f3f6ff;
+  height: 350px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+  height: 350px;
+}
+.title {
+  float: left;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  color: #1a4a9c;
+  margin-top: 50px;
+  display: block;
+}
+
+.list {
+  float: left;
+  width: 100%;
+  /* overflow: hidden; */
+  margin-top: 30px;
+}
+
+.clientlist {
+  width: 1200px;
+  height: 250px;
+}
+
+.custom-prev-arrow {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  background-color: red; /* Change background color as needed */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.custom-prev-arrow::before {
+  content: "<"; /* You can use any text or icon for the arrow */
+  color: white; /* Change arrow color as needed */
+  font-size: 20px; /* Adjust font size as needed */
+}
